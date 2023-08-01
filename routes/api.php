@@ -22,3 +22,4 @@ Route::get('exercicio/sete',
 Route::post('exercicio/dois', 
 [ExercicioDoisController::class, 'retornarMaior']);
 Route::post('exercicio/3', [ExercicioTresController::class, 'media']);
+Route::post('exercicio/quatro', [ExercicioQuatroController::class, 'verficar']);
